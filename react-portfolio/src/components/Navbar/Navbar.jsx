@@ -18,7 +18,10 @@ function Navbar() {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
-        <ul className={styles.menuItems}>
+        <ul
+          onClick={() => setMenuOpen(false)}
+          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+        >
           <li>
             <a href="#about">About</a>
           </li>
