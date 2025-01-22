@@ -5,7 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 // import ProjectCard from "./components/Projects/ProjectCard.Jsx";
 import Projects from "./components/Projects/Projects";
-
+import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div className={styles.App}>
@@ -14,6 +14,7 @@ function App() {
       <About></About>
       <Experience />
       <Projects />
+      <Contact />
       {/* <ProjectCard /> */}
     </div>
   );
