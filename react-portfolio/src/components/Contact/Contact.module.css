@@ -19,7 +19,7 @@
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 22px;
 }
 
 .link {
@@ -41,7 +41,7 @@
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
 }

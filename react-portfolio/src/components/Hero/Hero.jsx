@@ -9,10 +9,14 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Paul</h1>
         <p className={styles.description}>
-          I'm a full stack developerwith over 4 years of practical experience,
-          mainly in Full-stack development with framworks like React, but also
-          with knowledge of cloud , .NET and much more. Reach out if youd like
-          to learn more,
+          I'm a Software Engineer fresh off the boat from Ireland 🇮🇪 and ready
+          to make waves in Austin’s tech scene! With a First Class Honours
+          degree in Software Development and a passion for building innovative
+          solutions, I specialize in full-stack development, backend
+          engineering, and AI. From crafting AI-powered apps like Mindscribe AI
+          to building cloud-based systems, I love turning big ideas into
+          impactful projects. Plus, with 7+ years in hospitality, I bring
+          teamwork and communication to the forefront of every challenge.
         </p>
         <a className={styles.contactBtn} href="mailto:pgonigle57@gmail.com">
           Contact Me

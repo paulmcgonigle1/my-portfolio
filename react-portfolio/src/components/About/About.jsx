@@ -20,21 +20,15 @@ function About() {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={cursorIcon} alt="cursor Icon" />
+            <img src={cursorIcon} alt="Cursor Icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>Full Stack Developer</h3>
               <p>
-                Im a frontend developer with experience in responsive and
-                optiimized sites
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={serverIcon} alt="server Icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have expereince developing fast and optimised backend systems
+                As a full-stack developer, I build end-to-end solutions with a
+                focus on scalability, performance, and seamless user
+                experiences. I work with a variety of technologies, including
+                React, Python, Node.js, and AWS to bring projects to life from
+                concept to deployment.
               </p>
             </div>
           </li>
@@ -43,8 +37,22 @@ function About() {
             <div className={styles.aboutItemText}>
               <h3>.NET Developer</h3>
               <p>
-                I have loads of expertise in working with .NET, ASP.NET CORE,
-                Entity Framework etc
+                I have extensive experience with .NET, ASP.NET Core, and Entity
+                Framework, creating efficient, enterprise-level applications
+                with a strong focus on clean code and maintainability.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={serverIcon} alt="Server Icon" />
+            <div className={styles.aboutItemText}>
+              <h3>About Me</h3>
+              <p>
+                I’m a social guy who thrives on collaboration and building
+                strong connections, both in the tech world and beyond. When I’m
+                not coding, you’ll find me traveling 🌍, catching waves as a
+                certified lifeguard 🏄‍♂️, or exploring new hobbies and adventures.
+                Always open to a good conversation—let’s chat!
               </p>
             </div>
           </li>
