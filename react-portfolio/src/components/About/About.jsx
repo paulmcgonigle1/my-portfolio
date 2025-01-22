@@ -2,6 +2,9 @@ import React from "react";
 import aboutImage from "../../assets/about/aboutImage.png";
 import cursorIcon from "../../assets/about/cursorIcon.png";
 import serverIcon from "../../assets/about/serverIcon.png";
+import thumbsUp from "../../assets/about/thumbsUp.png";
+import avatar2 from "../../assets/about/avatar2.png";
+
 import uiIcon from "../../assets/about/uiIcon.png";
 import styles from "./About.module.css";
 
@@ -12,7 +15,7 @@ function About() {
       <div className={styles.content}>
         <img
           className={styles.aboutImage}
-          src={aboutImage}
+          src={avatar2}
           alt="me sitting with laptop"
         />
         <ul className={styles.aboutItems}>

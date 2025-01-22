@@ -1,5 +1,7 @@
 import React from "react";
-import hero from "../../assets/hero/hero.png";
+import mehawaii from "../../assets/hero/mehawaii.png";
+import avatar1 from "../../assets/hero/avatar1.png";
+
 import styles from "./Hero.module.css";
 function Hero() {
   return (
@@ -16,7 +18,7 @@ function Hero() {
           Contact Me
         </a>
       </div>
-      <img src={hero} alt="heroimg" className={styles.heroImg}></img>
+      <img src={avatar1} alt="heroimg" className={styles.heroImg}></img>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
