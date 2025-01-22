@@ -1,29 +1,29 @@
 [
     {
-      "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
-      "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "src/assets/history/google.png"
+      "role": "Full-Stack Engineer",
+      "organisation": "IRIS Technology Solutions",
+      "startDate": "Apr, 2023",
+      "endDate": "Sep, 2024",
+      "experiences": ["Collaborated on an Angular Node.js MVP project", "Implemented an Elastic-search semantic search engine into a Python/Flask application for enhanced functionality"],
+      "imageSrc": "src/assets/history/iris.png"
     },
     {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "src/assets/history/microsoft.png"
+      "role": "Bar & Operations Manager",
+      "organisation": "Ballyliffin Hotel",
+      "startDate": "May, 2024",
+      "endDate": "Aug, 2024",
+      "experiences": ["Collaborated with teams to ensure smooth, effective communication during high-pressure events", "Managed two bars during large functions, demonstrating leadership and organizational skills."],
+      "imageSrc": "src/assets/history/bhotel.png"
     },
     {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
+      "role": "Surfing Instructor",
+      "organisation": "Pacific Surf School",
       "startDate": "Apr, 2020",
       "endDate": "Jun, 2020",
       "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
+        "Taught surf lessons, focusing on skill development and ocean safety",
+        "Led group activities and prepared equipment for kids' camps"
       ],
-      "imageSrc": "src/assets/history/netflix.png"
+      "imageSrc": "src/assets/history/pschool.png"
     }
   ]
