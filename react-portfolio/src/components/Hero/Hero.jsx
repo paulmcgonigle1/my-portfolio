@@ -9,14 +9,13 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Paul</h1>
         <p className={styles.description}>
-          I'm a Software Engineer fresh off the boat from Ireland 🇮🇪 and ready
-          to make waves in Austin’s tech scene! With a First Class Honours
-          degree in Software Development and a passion for building innovative
-          solutions, I specialize in full-stack development, backend
-          engineering, and AI. From crafting AI-powered apps like Mindscribe AI
-          to building cloud-based systems, I love turning big ideas into
-          impactful projects. Plus, with 7+ years in hospitality, I bring
-          teamwork and communication to the forefront of every challenge.
+          👋 Welcome! I’m a Software Engineer from Ireland 🇮🇪, now in Austin and
+          eager to dive into the tech scene. With a First Class Honours degree
+          in Software Development and expertise in full-stack, backend, and AI,
+          I’m passionate about creating impactful solutions. Whether it's
+          crafting AI apps like Mindscribe or building cloud systems, I bring
+          ideas to life with a team-focused approach and a knack for
+          communication.
         </p>
         <a className={styles.contactBtn} href="mailto:pgonigle57@gmail.com">
           Contact Me

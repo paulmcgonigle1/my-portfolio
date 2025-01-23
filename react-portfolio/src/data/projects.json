@@ -2,7 +2,7 @@
     {
       "title": "Mindscribe AI",
       "imageSrc": "src/assets/projects/mindscribe.png",
-      "description": "Developed Mindscribe, an AI-powered journaling app with personalized insights",
+      "description": "Developed Mindscribe, An AI-powered journaling tool for personal development, integrating prompt engineering using Langchain. ",
       "skills": ["React", "Django", "Python","Langchain"],
       "source": "https://github.com/paulmcgonigle1/mindscribe-AI.git"
     },

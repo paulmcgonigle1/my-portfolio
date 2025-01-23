@@ -16,7 +16,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
-      <EmailForm></EmailForm>
+      {/* <EmailForm></EmailForm> */}
       {/* <ProjectCard /> */}
     </div>
   );
