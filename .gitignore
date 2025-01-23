@@ -1,6 +1,6 @@
 # Node modules
 node_modules/
-
+/node_modules
 # Logs
 *.log
 
@@ -17,3 +17,5 @@ jspm_packages/
 # IDE files
 .vscode/
 .idea/
+
+.env

@@ -1,23 +1,23 @@
 [
     {
       "title": "Mindscribe AI",
-      "imageSrc": "src/assets/projects/projects.png",
-      "description": "Developed Mindscribe, an AI-powered journaling app using Django, Langchain, and React, with prompt engineering to provide personalized insights and deployed on Heroku.",
-      "skills": ["React", "Django", "Python","Langhchain"],
+      "imageSrc": "src/assets/projects/mindscribe.png",
+      "description": "Developed Mindscribe, an AI-powered journaling app with personalized insights",
+      "skills": ["React", "Django", "Python","Langchain"],
       "source": "https://github.com/paulmcgonigle1/mindscribe-AI.git"
     },
     {
-      "title": "Project B",
-      "imageSrc": "src/assets/projects/projects.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "source": "https://www.github.com"
+      "title": "Ticket Management AWS App",
+      "imageSrc": "src/assets/projects/moodify.png",
+      "description": "Built a serverless AWS React app for event organization and ticket sales using Lambda, DynamoDB, API Gateway, CloudFront, and Cognito.",
+      "skills": ["React", "AWS", "Node"],
+      "source": "https://github.com/paulmcgonigle1/serverless-event-manager.git"
     },
     {
-      "title": "Project C",
+      "title": "Moodify: React & Spotify API Mood Analyzer",
       "imageSrc": "src/assets/projects/projects.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "description": "An Angular app devloped using the Spotify API for mood-based playlist analysis, with Auth0 authentication, Bootstrap UI, and a custom algorithm.",
+      "skills": ["Angular", "RESTful API", "Bootstrap", "Auth0"],
       "source": "https://www.github.com"
     }
   ]

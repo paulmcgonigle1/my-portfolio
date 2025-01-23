@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 // import ProjectCard from "./components/Projects/ProjectCard.Jsx";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
+import EmailForm from "./components/EmailForm/EmailForm";
 function App() {
   return (
     <div className={styles.App}>
@@ -15,6 +16,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <EmailForm></EmailForm>
       {/* <ProjectCard /> */}
     </div>
   );
