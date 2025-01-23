@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Environment variables (if any)
+.env
+
+# Build output
+/dist/
+/build/
+
+# Dependency directories (if any)
+jspm_packages/
+
+# IDE files
+.vscode/
+.idea/
