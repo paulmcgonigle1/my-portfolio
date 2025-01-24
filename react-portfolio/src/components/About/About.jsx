@@ -1,11 +1,11 @@
 import React from "react";
-import aboutImage from "../../assets/about/aboutImage.png";
-import cursorIcon from "../../assets/about/cursorIcon.png";
-import serverIcon from "../../assets/about/serverIcon.png";
-import thumbsUp from "../../assets/about/thumbsUp.png";
-import avatar2 from "../../assets/about/avatar2.png";
+// import aboutImage from "../public/assets/about/aboutImage.png";
+// import cursorIcon from "../../assets/about/cursorIcon.png";
+// import serverIcon from "../../assets/about/serverIcon.png";
+// import thumbsUp from "../../assets/about/thumbsUp.png";
+// import avatar2 from "../../assets/about/avatar2.png";
 
-import uiIcon from "../../assets/about/uiIcon.png";
+// import uiIcon from "../../assets/about/uiIcon.png";
 import styles from "./About.module.css";
 
 function About() {
@@ -15,12 +15,12 @@ function About() {
       <div className={styles.content}>
         <img
           className={styles.aboutImage}
-          src={avatar2}
+          src="/assets/about/avatar2.png"
           alt="me sitting with laptop"
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={cursorIcon} alt="Cursor Icon" />
+            <img src="/assets/about/cursorIcon.png" alt="Cursor Icon" />
             <div className={styles.aboutItemText}>
               <h3>Full Stack Developer</h3>
               <p>
@@ -33,7 +33,7 @@ function About() {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={uiIcon} alt="UI Icon" />
+            <img src="/assets/about/uiIcon.png" alt="UI Icon" />
             <div className={styles.aboutItemText}>
               <h3>.NET Developer</h3>
               <p>
@@ -44,7 +44,7 @@ function About() {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={serverIcon} alt="Server Icon" />
+            <img src="/assets/about/serverIcon.png" alt="Server Icon" />
             <div className={styles.aboutItemText}>
               <h3>About Me</h3>
               <p>

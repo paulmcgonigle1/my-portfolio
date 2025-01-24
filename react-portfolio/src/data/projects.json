@@ -1,21 +1,21 @@
 [
     {
       "title": "Mindscribe AI",
-      "imageSrc": "src/assets/projects/mindscribe.png",
+      "imageSrc": "/assets/projects/mindscribe.png",
       "description": "Developed Mindscribe, An AI-powered journaling tool for personal development, integrating prompt engineering using Langchain. ",
       "skills": ["React", "Django", "Python","Langchain"],
       "source": "https://github.com/paulmcgonigle1/mindscribe-AI.git"
     },
     {
       "title": "Ticket Management AWS App",
-      "imageSrc": "src/assets/projects/moodify.png",
+      "imageSrc": "/assets/projects/moodify.png",
       "description": "Built a serverless AWS React app for event organization and ticket sales using Lambda, DynamoDB, API Gateway, CloudFront, and Cognito.",
       "skills": ["React", "AWS", "Node"],
       "source": "https://github.com/paulmcgonigle1/serverless-event-manager.git"
     },
     {
       "title": "Moodify: React & Spotify API Mood Analyzer",
-      "imageSrc": "src/assets/projects/projects.png",
+      "imageSrc": "/assets/projects/projects.png",
       "description": "An Angular app devloped using the Spotify API for mood-based playlist analysis, with Auth0 authentication, Bootstrap UI, and a custom algorithm.",
       "skills": ["Angular", "RESTful API", "Bootstrap", "Auth0"],
       "source": "https://github.com/paulmcgonigle1/MoodChartApp"

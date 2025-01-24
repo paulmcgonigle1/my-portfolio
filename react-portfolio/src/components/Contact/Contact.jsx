@@ -1,8 +1,8 @@
 import React from "react";
 
-import email from "../../assets/contact/email.png";
-import linkedIn from "../../assets/contact/linkedIn.png";
-import github from "../../assets/contact/github.png";
+import email from "/assets/contact/email.png";
+import linkedIn from "/assets/contact/linkedIn.png";
+import github from "/assets/contact/github.png";
 import styles from "./Contact.module.css";
 function Contact() {
   return (

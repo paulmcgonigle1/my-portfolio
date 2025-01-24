@@ -5,7 +5,7 @@
       "startDate": "Apr, 2023",
       "endDate": "Sep, 2024",
       "experiences": ["Collaborated on an Angular Node.js MVP project", "Implemented an Elastic-search semantic search engine into a Python/Flask application for enhanced functionality"],
-      "imageSrc": "src/assets/history/iris.png"
+      "imageSrc": "/assets/history/iris.png"
     },
     {
       "role": "Bar & Operations Manager",
@@ -13,7 +13,7 @@
       "startDate": "May, 2024",
       "endDate": "Aug, 2024",
       "experiences": ["Collaborated with teams to ensure smooth, effective communication during high-pressure events", "Managed two bars during large functions, demonstrating leadership and organizational skills."],
-      "imageSrc": "src/assets/history/bhotel.png"
+      "imageSrc": "/assets/history/bhotel.png"
     },
     {
       "role": "Surfing Instructor",
@@ -24,6 +24,6 @@
         "Taught surf lessons, focusing on skill development and ocean safety",
         "Led group activities and prepared equipment for kids' camps"
       ],
-      "imageSrc": "src/assets/history/pschool.png"
+      "imageSrc": "/assets/history/pschool.png"
     }
   ]

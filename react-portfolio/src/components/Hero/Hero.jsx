@@ -1,6 +1,4 @@
 import React from "react";
-import mehawaii from "../../assets/hero/mehawaii.png";
-import avatar1 from "../../assets/hero/avatar1.png";
 
 import styles from "./Hero.module.css";
 function Hero() {
@@ -21,7 +19,11 @@ function Hero() {
           Contact Me
         </a>
       </div>
-      <img src={avatar1} alt="heroimg" className={styles.heroImg}></img>
+      <img
+        src="/assets/hero/avatar1.png"
+        alt="heroimg"
+        className={styles.heroImg}
+      ></img>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

@@ -3,10 +3,10 @@ import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
-// import ProjectCard from "./components/Projects/ProjectCard.Jsx";
+import ProjectCard from "./components/Projects/ProjectCard.Jsx";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import EmailForm from "./components/EmailForm/EmailForm";
+// import EmailForm from "./components/EmailForm/EmailForm";
 import References from "./components/References/References";
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <References />
       <Contact />
       {/* <EmailForm></EmailForm> */}
-      {/* <ProjectCard /> */}
+      <ProjectCard />
     </div>
   );
 }

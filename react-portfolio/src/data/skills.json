@@ -1,50 +1,50 @@
 [
     {
       "title": "AWS",
-       "imageSrc": "src/assets/skills/aws.png"
+       "imageSrc": "/assets/skills/aws.png"
     },
     {
       "title": "Angular",
-      "imageSrc": "src/assets/skills/angular.png"    },
+      "imageSrc": "/assets/skills/angular.png"    },
     {
       "title": "React",
-      "imageSrc": "src/assets/skills/react.png"
+      "imageSrc": "/assets/skills/react.png"
     },
     {
       "title": "Node",
-       "imageSrc": "src/assets/skills/node.png"
+       "imageSrc": "/assets/skills/node.png"
     },
     {
       "title": "ElasticSearch",
-       "imageSrc": "src/assets/skills/elasticsearch.png"
+       "imageSrc": "/assets/skills/elasticsearch.png"
     },
     {
       "title": "MongoDB",
-       "imageSrc": "src/assets/skills/mongo.png"
+       "imageSrc": "/assets/skills/mongo.png"
     },
     {
       "title": ".NET",
-       "imageSrc": "src/assets/skills/net.png"
+       "imageSrc": "/assets/skills/net.png"
     },
     {
       "title": "Github/Gitlab",
-       "imageSrc": "src/assets/skills/git.png"
+       "imageSrc": "/assets/skills/git.png"
     },
     {
       "title": "Django",
-       "imageSrc": "src/assets/skills/django.png"
+       "imageSrc": "/assets/skills/django.png"
     },
     {
       "title": "Python",
-       "imageSrc": "src/assets/skills/python.png"
+       "imageSrc": "/assets/skills/python.png"
     },
     {
       "title": "Langchain",
-       "imageSrc": "src/assets/skills/langchain.png"
+       "imageSrc": "/assets/skills/langchain.png"
     },
   
     {
       "title": "Javascript",
-       "imageSrc": "src/assets/skills/javascript.png"
+       "imageSrc": "/assets/skills/javascript.png"
     }
   ]
