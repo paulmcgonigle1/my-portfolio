@@ -1,0 +1,52 @@
+.card {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Light up on hover */
+  }
+  
+ 
+  
+  .role {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .organisation {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .manager {
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  .reference {
+    background-color: #132a53;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+
+    padding: 10px;
+    font-size: 0.9rem;
+    color: white;
+    margin-bottom: 10px;
+
+  }

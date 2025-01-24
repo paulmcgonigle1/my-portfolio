@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import EmailForm from "./components/EmailForm/EmailForm";
+import References from "./components/References/References";
 function App() {
   return (
     <div className={styles.App}>
@@ -15,6 +16,7 @@ function App() {
       <About></About>
       <Experience />
       <Projects />
+      <References />
       <Contact />
       {/* <EmailForm></EmailForm> */}
       {/* <ProjectCard /> */}

@@ -1,0 +1,30 @@
+[
+    {
+      "role": "Full-Stack Engineer",
+      "organisation": "IRIS Technology Solutions",
+      "manager": "Isay Gonzàles",
+      "reference": "Reference currently being draw up....",
+      "imageSrc": "src/assets/references/isay.png"
+    },
+    {
+      "role": "Bar & Operations Manager",
+      "organisation": "The Ballyliffin Hotel",
+      "manager": "Blaine McCarron",
+      "reference": "Reference currently being draw up....",
+      "imageSrc": "src/assets/references/blaine.png"
+    },
+    {
+      "role": "Surfing Instructor",
+      "organisation": "Atlantic Technological University",
+      "manager": "Padraig Harte",
+      "reference": "Reference currently being draw up....",
+      "imageSrc": "src/assets/references/padraig.png"
+    }
+    ,{
+      "role": "Surfing Instructor",
+      "organisation": "Pacific Surf School",
+      "manager": "Chris Russell",
+      "reference": "Reference currently being draw up....",
+      "imageSrc": "src/assets/references/chris.png"
+    }
+  ]

@@ -18,6 +18,6 @@
       "imageSrc": "src/assets/projects/projects.png",
       "description": "An Angular app devloped using the Spotify API for mood-based playlist analysis, with Auth0 authentication, Bootstrap UI, and a custom algorithm.",
       "skills": ["Angular", "RESTful API", "Bootstrap", "Auth0"],
-      "source": "https://www.github.com"
+      "source": "https://github.com/paulmcgonigle1/MoodChartApp"
     }
   ]
