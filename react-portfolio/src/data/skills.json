@@ -14,10 +14,7 @@
       "title": "Node",
        "imageSrc": "/assets/skills/node.png"
     },
-    {
-      "title": "ElasticSearch",
-       "imageSrc": "/assets/skills/elasticsearch.png"
-    },
+    
     {
       "title": "MongoDB",
        "imageSrc": "/assets/skills/mongo.png"
@@ -46,5 +43,8 @@
     {
       "title": "Javascript",
        "imageSrc": "/assets/skills/javascript.png"
+    },{
+      "title": "ElasticSearch",
+       "imageSrc": "/assets/skills/elasticsearch.png"
     }
   ]

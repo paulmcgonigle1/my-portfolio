@@ -1,5 +1,6 @@
 @import "../../vars.css";
 
+/* This is for Projects.Module.Css */
 .container {
   margin-top: 76px;
   color: var(--color-text);
@@ -19,8 +20,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   width: 100%;
 }

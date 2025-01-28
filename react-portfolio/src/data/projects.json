@@ -1,16 +1,16 @@
 [
     {
       "title": "Mindscribe AI",
-      "imageSrc": "/assets/projects/mindscribe.png",
+      "imageSrc": "/assets/projects/mindscribe2.png",
       "description": "Developed Mindscribe, An AI-powered journaling tool for personal development, integrating prompt engineering using Langchain. ",
-      "skills": ["React", "Django", "Python","Langchain"],
+      "skills": ["React", "Django", "Python","Langchain", "TailwindCSS"],
       "source": "https://github.com/paulmcgonigle1/mindscribe-AI.git"
     },
     {
       "title": "Ticket Management AWS App",
       "imageSrc": "/assets/projects/moodify.png",
       "description": "Built a serverless AWS React app for event organization and ticket sales using Lambda, DynamoDB, API Gateway, CloudFront, and Cognito.",
-      "skills": ["React", "AWS", "Node"],
+      "skills": ["React", "AWS", "Node", "MongoDB"],
       "source": "https://github.com/paulmcgonigle1/serverless-event-manager.git"
     },
     {

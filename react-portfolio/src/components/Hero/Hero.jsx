@@ -15,7 +15,7 @@ function Hero() {
           ideas to life with a team-focused approach and a knack for
           communication.
         </p>
-        <a className={styles.contactBtn} href="mailto:pgonigle57@gmail.com">
+        <a className={styles.contactBtn} href="#contact">
           Contact Me
         </a>
       </div>
