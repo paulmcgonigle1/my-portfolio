@@ -5,7 +5,9 @@ function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Paul</h1>
+        <h1 className={styles.title}>
+          Hi, <span className={styles.span}>I'm Paul</span>
+        </h1>
         <p className={styles.description}>
           👋 Welcome! I’m a Software Engineer from Ireland 🇮🇪, now in Austin and
           eager to dive into the tech scene. With a First Class Honours degree
