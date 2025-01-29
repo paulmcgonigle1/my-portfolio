@@ -1,22 +1,49 @@
+.container{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  /* perspective: 1200px; */
+    /* Ensures 3D effect */      /* Ensures 3D effect works properly */
+}
+
 .card {
+    width: 100%;
+    height:100% ;
     text-align: center;
     padding: 10px;
+    /* position: absolute; */
     border-radius: 10px;
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding-left: 5%;
     padding-right: 5%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-
+  transition: transform 0.34s ease-in-out;
+   transform-style: preserve-3d;
+      position: relative;
     
   }
 
-  .card:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Light up on hover */
+  .container:hover .card {
+    transform: rotateY(180deg);
   }
   
- 
+  .front,
+  .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+  }
+  
+  .front {
+    z-index: 2;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+  }
   
   .role {
     font-size: 1.2rem;
@@ -25,9 +52,10 @@
   }
   
   .organisation {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   
   .manager {
@@ -43,13 +71,28 @@
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-
     padding: 10px;
+    margin: 10px;
     font-size: 0.9rem;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    flex: auto;
+    flex-wrap: wrap;
+    min-height: 150px;
 
 
 
   }
+  .button {
+    text-decoration: none;
+      background-color: var(--color-primary);
+      color: var(--color-text);
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 200;
+      padding: 10px 15px;
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+      
+  }
+
     

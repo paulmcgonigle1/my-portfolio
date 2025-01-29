@@ -3,27 +3,36 @@
       "role": "Full-Stack Engineer",
       "organisation": "IRIS Technology Solutions",
       "manager": "Isay Gonzàles",
-      "reference": "Reference currently being draw up....",
-      "imageSrc": "/assets/references/isay.png"
+      "reference": "Paul is a proactive, decisive, consistent person with a very good attitude. That is why I consider him to be an optimal candidate for the Full Stack Position. If at the end of the collaboration we had a suitable position available, we would not have hesitated to hire him permanently. Sincerely, ",
+      "imageSrc": "/assets/references/isay.png",
+      "referenceSrc":"https://drive.google.com/file/d/1QC7GcdP2flym91wTNIxZXqHrI5iJBGIo/view?usp=drive_link"
+
+      
     },
     {
       "role": "Bar & Operations Manager",
       "organisation": "The Ballyliffin Hotel",
       "manager": "Blaine McCarron",
- "reference": "Reference currently being draw up....",      "imageSrc": "/assets/references/blaine.png"
+      "reference": "I can whole heartedly recommend Paul as a perfect fit for any team. I am very conscious that a gain for any other team will undoubtedly be a loss for the Ballyliffin Hotel, however I am well aware that it would be both unfair and unreasonable to expect someone of Pauls character, ability and calibre to not want to push himself and challenge himself in a much wider world than our Donegal peninsula.",    
+      "imageSrc": "/assets/references/blaine.png",
+      "referenceSrc":"https://drive.google.com/file/d/1nCiyyf_Dn_a1Sdm33ioVz95PQ2fen_07/view?usp=sharing"
     },
     {
-      "role": "Surfing Instructor",
+      "role": "Student",
       "organisation": "Atlantic Technological University",
       "manager": "Padraig Harte",
       "reference": "Reference currently being draw up....",
-      "imageSrc": "/assets/references/padraig.png"
+      "imageSrc": "/assets/references/padraig.png",
+      "referenceSrc":""
+
     }
     ,{
       "role": "Surfing Instructor",
       "organisation": "Pacific Surf School",
       "manager": "Chris Russell",
       "reference": "Reference currently being draw up....",
-      "imageSrc": "/assets/references/chris.png"
+      "imageSrc": "/assets/references/chris.png",
+      "referenceSrc":""
+
     }
   ]

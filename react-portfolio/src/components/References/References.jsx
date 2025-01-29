@@ -14,7 +14,7 @@ import references from "../../data/references.json";
 function References() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>References - in progress</h2>
+      <h2 className={styles.title}>References</h2>
       <Swiper
         className={styles.swiper}
         modules={[Navigation, Pagination, Scrollbar, A11y]}
