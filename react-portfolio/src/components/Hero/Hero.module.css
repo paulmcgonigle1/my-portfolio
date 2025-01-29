@@ -28,13 +28,14 @@
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     color: var(--color-text);
-                /* Soft glow */
+
 }
 
 .span {
     position: relative;
+    
 }
-
+/*  this was changed so that i could see it better and it woulldnt break on samsungs*/
 .span::after {
     content: '';
     position: absolute;
