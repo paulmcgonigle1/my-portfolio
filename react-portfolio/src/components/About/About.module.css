@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  background-color: var(--color-secondary);
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;
@@ -46,8 +46,8 @@
   padding: 25px;
   background-image: linear-gradient(
     90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(228, 143, 69, 0.15) 0%,
+    rgba(245, 230, 202, 0.05) 100%
   );
   background-size: 0 100%;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    background-color: transparent;
+    background-color: var(--color-secondary);
     padding-left: 0;
     padding-right: 0;
   }

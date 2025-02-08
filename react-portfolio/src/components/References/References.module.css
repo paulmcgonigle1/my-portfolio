@@ -39,17 +39,16 @@
 /* Style for centered/active card */
 .swiper-slide-active .card {
   transform: scale(1.2); /* Make the active card larger */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Highlight the active card */
-  background-color: aqua;
+  box-shadow: 0 8px 20px rgba(228, 143, 69, 0.2); /* Warm highlight for active card */
+  background-color: var(--color-secondary);
 }
 
 .swiper-slide img {
   width: 150px; /* Make width and height equal */
   height: 150px;
   margin-bottom: 20px;
-  box-shadow: 0 16px 14px 0 #04152d;
+  box-shadow: 0 8px 16px rgba(228, 143, 69, 0.15);
 
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensures the image fills the circle evenly */
 }
-

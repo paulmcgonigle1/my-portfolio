@@ -4,7 +4,6 @@ import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
-import ProjectCard from "./components/Projects/ProjectCard.Jsx";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 // import EmailForm from "./components/EmailForm/EmailForm";
@@ -21,7 +20,6 @@ function App() {
       <References />
       <Contact />
       {/* <EmailForm></EmailForm> */}
-      <ProjectCard />
     </div>
   );
 }

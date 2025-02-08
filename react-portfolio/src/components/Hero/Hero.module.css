@@ -1,6 +1,5 @@
 @import "../../vars.css";
 
-
 .container {
     position: relative;
     display: flex;
@@ -10,8 +9,6 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
-
-
 }
 
 .content{
@@ -28,14 +25,12 @@
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     color: var(--color-text);
-
 }
 
 .span {
     position: relative;
-    
 }
-/*  this was changed so that i could see it better and it woulldnt break on samsungs*/
+
 .span::after {
     content: '';
     position: absolute;
@@ -46,6 +41,7 @@
     background: var(--color-primary);
     border-radius: 5px;
 }
+
 .description{
     font-size: 25px;
     font-family: var(--font-roboto);
@@ -60,20 +56,30 @@
     font-size: 30px;
     font-weight: 600;
     padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-    
-
+    box-shadow: 0 4px 8px rgba(228, 143, 69, 0.2);
+    transition: all 0.3s ease;
 }
+
+.contactBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(228, 143, 69, 0.3);
+    background-color: #f0a564;
+}
+
 .heroImg{
     width: 30%;
-  height: auto;
-  aspect-ratio: 1/1; /* Ensures the image remains square */
+    height: auto;
+    aspect-ratio: 1/1;
+    z-index: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 16px rgba(228, 143, 69, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-  z-index: 1;
-  border-radius: 50%; /* Makes the image a perfect circle */
-  object-fit: cover; /* Ensures the image is cropped correctly in the circle */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* Adds a soft shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+.heroImg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(228, 143, 69, 0.2);
 }
 
 .topBlur{
@@ -85,10 +91,11 @@
     top:-128px;
     left: 10vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109,0.7);
-    filter: blur(100px);
+    background: rgba(228, 143, 69, 0.3);
+    filter: blur(120px);
     z-index: 0;
 }
+
 .bottomBlur{
     position: absolute;
     width: 70vw;
@@ -98,8 +105,8 @@
     top:246px;
     right: -25vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109,0.7);
-    filter: blur(100px);
+    background: rgba(245, 230, 202, 0.4);
+    filter: blur(120px);
     z-index: 0;
 }
 

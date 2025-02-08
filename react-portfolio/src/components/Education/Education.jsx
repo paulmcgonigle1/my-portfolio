@@ -17,6 +17,15 @@ function Education() {
             GPA Equivalent: 3.7-4.0 (First Class Honours in Ireland)
           </p>
 
+          <a
+            href="https://www.atu.ie/courses/bachelor-of-science-honours-software-development-full-time"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.learnMore}
+          >
+            Learn More About This Program →
+          </a>
+
           <div className={styles.highlightsSection}>
             <h4>Program Highlights:</h4>
             <div className={styles.carouselContainer}>

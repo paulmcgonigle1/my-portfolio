@@ -28,7 +28,6 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
-      /* Space between each row of skills */
 }
 
 .skill {
@@ -36,18 +35,18 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-
-  max-width:200px
+  max-width: 200px;
 }
 
 .skillImageContainer {
-  background-color: white;
+  background-color: var(--color-secondary);
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 120px;
   height: 120px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .skillImageContainer img {
@@ -72,10 +71,17 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  background: var(--color-secondary);
+  background: linear-gradient(90deg, var(--color-dark) 0%, var(--color-secondary) 100%);
   border-radius: 10px;
   padding: 24px;
+  box-shadow: 0 4px 8px rgba(228, 143, 69, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.historyItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(228, 143, 69, 0.2);
 }
 
 .historyItem img {
