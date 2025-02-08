@@ -2,24 +2,24 @@
     {
       "role": "Full-Stack Engineer",
       "organisation": "IRIS Technology Solutions",
-      "startDate": "Apr, 2023",
-      "endDate": "Sep, 2024",
-      "experiences": ["Collaborated on an Angular Node.js MVP project.", "Implemented an Elastic-search semantic search engine into a Python/Flask application for enhanced functionality"],
+      "startDate": "Apr 2023",
+      "endDate": "Sep 2024",
+      "experiences": ["Collaborated on an Angular Node.js MVP project.", "Implemented an Elasticsearch semantic search engine into a Python/Flask application for enhanced functionality"],
       "imageSrc": "/assets/history/iris.png"
     },
     {
       "role": "Bar & Operations Manager",
       "organisation": "Ballyliffin Hotel",
-      "startDate": "May, 2024",
-      "endDate": "Aug, 2024",
+      "startDate": "May 2024",
+      "endDate": "Aug 2024",
       "experiences": ["Collaborated with teams to ensure smooth, effective communication during high-pressure events.", "Managed two bars during large functions, demonstrating leadership and organizational skills."],
       "imageSrc": "/assets/history/bhotel.png"
     },
     {
       "role": "Surfing Instructor",
       "organisation": "Pacific Surf School",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
+      "startDate": "Apr 2020",
+      "endDate": "Jun 2020",
       "experiences": [
         "Taught surf lessons, focusing on skill development and ocean safety",
         "Led group activities and prepared equipment for kids' camps"

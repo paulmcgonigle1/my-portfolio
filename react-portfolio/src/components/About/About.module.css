@@ -91,3 +91,9 @@
     padding-right: 0;
   }
 }
+
+@media screen and (max-width: 1300px) {
+  .aboutImage {
+      display: none;
+    }
+}
