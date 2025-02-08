@@ -77,8 +77,8 @@ function Education() {
                   <h5>Cloud & DevOps</h5>
                   <p>
                     Hands-on experience with AWS (Lambda, S3, DynamoDB, IAM),
-                    Docker, Kubernetes, and CI/CD pipelines, ensuring scalable
-                    and efficient deployment.
+                    Docker, and CI/CD pipelines, ensuring scalable and efficient
+                    deployment.
                   </p>
                 </div>
                 <div className={styles.carouselItem}>

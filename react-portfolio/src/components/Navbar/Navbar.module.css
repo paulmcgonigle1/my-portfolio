@@ -15,8 +15,10 @@
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--color-text)
-
+    color: var(--color-text);
+    min-width: 120px;
+    margin-right: 20px;
+    white-space: nowrap;
 }
 
 .menu{
@@ -38,9 +40,15 @@
 }
 .menuBtn {
     display: none;
+    filter: brightness(0) saturate(100%) invert(62%) sepia(50%) saturate(409%) hue-rotate(346deg) brightness(93%) contrast(91%);
+    transition: transform 0.3s ease;
 }
 
-@media screen and (max-width: 830px ){
+.menuBtn:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1000px) {
    
     .navbar{
         flex-direction: column;
@@ -66,10 +74,10 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: rgb(25,55,109);
-        background: linear-gradient(0deg, rgba(25,55,109) 0%, rgba(25,55,109,1)) ;
+        background: var(--color-secondary);
+        background: linear-gradient(0deg, var(--color-dark) 0%, var(--color-secondary) 100%);
         padding: 24px 33px;
-        box-shadow: 0 0 4px 0 rgba(0,0,0,1);
+        box-shadow: 0 8px 16px rgba(228, 143, 69, 0.15);
     }
     .menuOpen{
         display: flex;
@@ -78,4 +86,3 @@
     }
     
 }
-

@@ -1,98 +1,90 @@
-.container{
+.container {
   position: relative;
   width: 300px;
   height: 300px;
-  /* perspective: 1200px; */
-    /* Ensures 3D effect */      /* Ensures 3D effect works properly */
 }
 
 .card {
-    width: 100%;
-    height:100% ;
-    text-align: center;
-    padding: 10px;
-    /* position: absolute; */
-    border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding-left: 5%;
-    padding-right: 5%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px 5%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, var(--color-dark) 0%, var(--color-secondary) 100%);
+  box-shadow: 0 8px 16px rgba(228, 143, 69, 0.15);
   transition: transform 0.34s ease-in-out;
-   transform-style: preserve-3d;
-      position: relative;
-    
-  }
+  transform-style: preserve-3d;
+  position: relative;
+}
 
-  .container:hover .card {
-    transform: rotateY(180deg);
-  }
-  
-  .front,
-  .back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    top: 0;
-    left: 0;
-  }
-  
-  .front {
-    z-index: 2;
-  }
-  
-  .back {
-    transform: rotateY(180deg);
-  }
-  
-  .role {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: black;
-  }
-  
-  .organisation {
-    font-size: 1.2rem;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  
-  .manager {
-    font-size: 0.9rem;
-    color: white;
-    margin-bottom: 10px;
-  }
-  
+.container:hover .card {
+  transform: rotateY(180deg);
+}
 
-  
-  .reference {
-    background-color: #132a53;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-    padding: 10px;
-    margin: 10px;
-    font-size: 0.9rem;
-    color: white;
-    margin-bottom: 20px;
-    flex: auto;
-    flex-wrap: wrap;
-    min-height: 150px;
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+}
 
+.front {
+  z-index: 2;
+}
 
+.back {
+  transform: rotateY(180deg);
+}
 
-  }
-  .button {
-    text-decoration: none;
-      background-color: var(--color-primary);
-      color: var(--color-text);
-      border-radius: 10px;
-      font-size: 15px;
-      font-weight: 200;
-      padding: 10px 15px;
-      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-      
-  }
+.role {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-text);
+}
 
-    
+.organisation {
+  font-size: 1.2rem;
+  color: var(--color-text);
+  margin: 20px 0;
+}
+
+.manager {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.reference {
+  background: linear-gradient(180deg, var(--color-dark) 0%, var(--color-secondary) 100%);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(228, 143, 69, 0.15);
+  padding: 15px;
+  margin: 10px;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  margin-bottom: 20px;
+  flex: auto;
+  flex-wrap: wrap;
+  min-height: 150px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 15px;
+  box-shadow: 0 4px 8px rgba(228, 143, 69, 0.2);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(228, 143, 69, 0.3);
+  background-color: #f0a564;
+}

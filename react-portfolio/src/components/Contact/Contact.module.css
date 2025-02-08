@@ -36,6 +36,20 @@
   display: flex;
   align-items: center;
   gap: 25px;
+  transition: transform 0.3s ease;
+}
+
+.link:hover {
+  transform: translateY(-2px);
+}
+
+.link img {
+  filter: brightness(0) saturate(100%) invert(62%) sepia(50%) saturate(409%) hue-rotate(346deg) brightness(93%) contrast(91%);
+  transition: transform 0.3s ease;
+}
+
+.link:hover img {
+  transform: scale(1.1);
 }
 
 .link a {
@@ -44,6 +58,11 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  transition: color 0.3s ease;
+}
+
+.link:hover a {
+  color: var(--color-primary);
 }
 
 @media screen and (max-width: 830px) {
